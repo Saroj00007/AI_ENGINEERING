@@ -48,6 +48,9 @@ print("b = ", b)
 print("loss = ", loss)  
 
 
+
+
+
     
 
 
