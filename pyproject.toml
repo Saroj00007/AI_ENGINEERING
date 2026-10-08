@@ -7,7 +7,9 @@ authors = [
     { name = "Saroj00007", email = "saroj.kandel5856@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.3",
+]
 
 [project.scripts]
 applied-ai = "applied_ai:main"
