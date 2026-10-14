@@ -11,10 +11,11 @@ dependencies = [
     "dotenv>=0.9.9",
     "numpy>=2.5.3",
     "openai>=3.31.0",
+    "pydantic>=2.14.1",
 ]
 
 [project.scripts]
-applied-ai = "applied_ai:main"
+applied-ai = "reposage.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.15,<0.13.0"]
